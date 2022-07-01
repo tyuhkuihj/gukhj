@@ -1,0 +1,17 @@
+{
+  "name": "decaf-emu",
+  "version-string": "0.1.0",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": ["avcodec", "avfilter", "swscale"]
+    },
+    "c-ares",
+    "curl",
+    "libuv",
+    "openssl",
+    "sdl2",
+    "zlib"
+  ]
+}
